@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="tictactoe.js"></script>
+</head>
+<body class="text-center" onload="startGame()">
+	<h1>Tic Tac Toe</h1>
+	<h2 id="message">Message Here</h2>
+	<table border="1">
+		<tr>
+			<td class="square" id="s1" onclick="nextMove(this)"></td>
+			<td class="square" id="s2" onclick="nextMove(this)"></td>
+			<td class="square" id="s3" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="s4" onclick="nextMove(this)"></td>
+			<td class="square" id="s5" onclick="nextMove(this)"></td>
+			<td class="square" id="s6" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="s7" onclick="nextMove(this)"></td>
+			<td class="square" id="s8" onclick="nextMove(this)"></td>
+			<td class="square" id="s9" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<button onclick="startGame()">New Game</button>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+	background-color: grey;
+	color: white;
+}
+h2{
+	display: inline;
+}
+#start{
+	margin: 10px;
+}
